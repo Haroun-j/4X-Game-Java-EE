@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="https://jakarta.ee/xml/ns/jakartaee"
+		 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+		 id="WebApp_ID" version="6.0" >
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.projet.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/com.projet.controller.LoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MainMenuController</servlet-name>
+		<servlet-class>com.projet.controller.MainMenuController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MainMenuController</servlet-name>
+		<url-pattern>/MainMenuController</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>com.projet.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/LoginController</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ActionsController</servlet-name>
+		<servlet-class>com.projet.controller.ActionsController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ActionsController</servlet-name>
+		<url-pattern>/ActionsController</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GameStateController</servlet-name>
+		<servlet-class>com.projet.controller.GameStateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GameStateController</servlet-name>
+		<url-pattern>/GameStateController</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DatabaseServlet</servlet-name>
+		<servlet-class>com.projet.controller.DatabaseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatabaseServlet</servlet-name>
+		<url-pattern>/database-test</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TurnController</servlet-name>
+		<servlet-class>com.projet.controller.TurnController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TurnController</servlet-name>
+		<url-pattern>/TurnController</url-pattern>
+	</servlet-mapping>
+</web-app>
