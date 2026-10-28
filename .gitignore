@@ -1,0 +1,24 @@
+# Build output
+out/
+target/
+build/
+WEB-INF/classes/
+*.class
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs and OS files
+*.log
+hs_err_*.log
+.DS_Store
+Thumbs.db
+
+# Demo videos are too big for the repo
+*.mp4
